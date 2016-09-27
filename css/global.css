@@ -1,0 +1,254 @@
+header {
+    background-color: #073b4c;
+    padding: 20px 30px 20px 20px;
+    border-bottom: 15px double #cdd7d6;
+}
+#name {
+    font-size: 80px;
+    font-family: 'Delius Unicase', cursive;
+    float: left;
+    clear: both;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+header > div {
+    display: inline-block;
+    float: right;
+    margin: 5px;
+    color: #ffffff;
+    margin-right: 5px;
+    padding: 0px 15px 5px 15px;
+    transition: all 0s ease;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+}
+header > div:hover {
+    border-bottom: 2px solid #f87060;
+}
+main > section {
+    padding: 30px 50px 30px 50px;
+    font-family: 'Patua One', sans-serif;
+}
+#about_me {
+    background-color: #f87060;
+    text-align: center;
+    border-bottom: 15px double #cdd7d6;
+}
+.section_title {
+    font-family: 'Patua One', sans-serif;
+    font-size: 60px;
+    color: #cdd7d6;
+}
+.vertical {
+    height: 320px;
+    margin-left: -100px;
+    margin-right: 50px;
+    padding-left: 10px;
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+    white-space:nowrap;
+    display:inline-block;
+    border-left: 8px double #073b4c;
+}
+.image {
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    border: 8px solid #073b4c;
+    transition: all 0.1s ease;
+    display: inline-flex;
+    margin: 10px 30px 0px 30px;
+}
+.image:hover {
+    border: 12px solid #cdd7d6;
+}
+#cooking {
+    background: url(../img/cooking.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#background {
+    background: url(../img/open-road.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#html {
+    background: url(../img/html.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#contact {
+    background-color: #b3a293;
+    text-align: center;
+}
+#contact > div {
+    display: inline-block;
+    margin: 0px 30px 0px 30px;
+}
+#me {
+    background: url(../img/me.jpg);
+    background-position: top;
+    background-size: cover;
+    width: 75px;
+    height: 100px;
+    display: inline-flex;
+    float: left;
+    margin-top: 40px;
+    border: none;
+}
+#me:hover {
+    border: none;
+}
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+.underline_hover:hover {
+    border-bottom: 8px double #073b4c;
+}
+footer {
+    background-color: #073b4c;
+    padding: 2px 15px 2px 5px;
+    text-align: right;
+    color: #ffffff;
+    font-family: 'Delius Unicase', sans-serif;
+    font-size: 16px;
+}
+#background_section {
+    border-bottom: 15px double #f87060;
+    padding-top: 5px;
+    background-color: #cdd7d6;
+}
+.title {
+    font-size: 40px;
+    color: #073b4c;
+    margin-bottom: 5px;
+}
+#html_section {
+    border-bottom: 15px double #b3a293;
+    padding-top: 5px;
+    background-color: #f87060;
+}
+#cooking_section {
+    border-bottom: 15px double #073b4c;
+    padding-top: 5px;
+    background-color: #b3a293;
+}
+.about_paragraphs {
+    width: 65%;
+    height: 260px;
+    float: right;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 24px;
+    color: #073b4c;
+}
+
+/*css for w1d1 assignment*/
+#crockpot_header {
+    background-color: #a1e4da;
+    margin: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
+}
+
+/*h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left: 5px;
+}*/
+table {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin-left: 5px;
+}
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.align {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.recipe_table {
+    width: 90%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #efefef;
+}
+.ingredients {
+    text-align: left;
+}
+.recipe_picture {
+    width: 35%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    width: 350px;
+}
+.footer {
+    width: 30%;
+    margin: 15px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 3%;
+    background-color: #a1e4da;
+    padding: 10px;
+    text-align: center;
+}
+
+#middle{
+    background-color: rgb(185, 223, 155);
+}
+
+/*done in class*/
+/*
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.ugly, .beautiful, button {
+    width: 250px;
+}
+.ugly {
+    background-color: #acda69;
+    border: 8px solid red;
+}
+.beautiful {
+    background: transparent;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: all .3s ease;
+}
+.beautiful:hover {
+    transform: scale(2) rotate(45deg);
+}
+button > span {
+    font-size: 50px;
+}
+*/
