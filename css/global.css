@@ -99,6 +99,7 @@ main > section {
     float: left;
     margin-top: 40px;
     border: none;
+    border: 2px solid #ffffff;
 }
 #me:hover {
     border: none;
@@ -132,7 +133,7 @@ footer {
     color: #073b4c;
     margin-bottom: 5px;
 }
-#html_section {
+.middle_section {
     border-bottom: 15px double #b3a293;
     padding-top: 5px;
     background-color: #f87060;
@@ -153,6 +154,33 @@ footer {
     font-size: 24px;
     color: #073b4c;
 }
+#contacts {
+    padding: 50px 70px 50px 50px;
+}
+#contacts div {
+    background-color: #073b4c;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: 15px 30px 15px 10px;
+}
+.contact_logo {
+    padding: 50px;
+    color: #ffffff;
+}
+#contacts td {
+    text-align: center;
+}
+#contacts h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: left;
+}
+#contacts h1:hover {
+    color: #073b4c;
+}
+
 
 /*css for w1d1 assignment*/
 #crockpot_header {
